@@ -1,0 +1,17 @@
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/TestProject1.deps.json
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/TestProject1.runtimeconfig.json
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/TestProject1.runtimeconfig.dev.json
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/TestProject1.dll
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/TestProject1.pdb
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/CommandPattern.dll
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/bin/Debug/netcoreapp2.2/CommandPattern.pdb
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.csprojAssemblyReference.cache
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.csproj.CoreCompileInputs.cache
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.AssemblyInfoInputs.cache
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.AssemblyInfo.cs
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.csproj.CopyComplete
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.dll
+/home/wilcorook/RiderProjects/CommandPattern/TestProject1/obj/Debug/netcoreapp2.2/TestProject1.pdb
