@@ -162,7 +162,8 @@ namespace CommandPattern
             Console.WriteLine($"Light is turned {light}");
             Console.WriteLine($"Fan is turned {fan}");
             Console.WriteLine($"Thermostat is turned {thermostat}");
-            Console.ForegroundColor = ConsoleColor.White;
+            //Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
             Console.WriteLine("-------------------");
         }
         
@@ -170,7 +171,8 @@ namespace CommandPattern
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Kies een geldige optie uit het keuze menu.");
-            Console.ForegroundColor = ConsoleColor.White;
+            //Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
             Console.WriteLine("-------------------");
         }
     }
