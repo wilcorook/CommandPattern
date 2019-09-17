@@ -1,17 +1,20 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Dev\\CommandPattern\\CommandPattern\\CommandPattern.csproj",
+    "projectUniqueName": "/home/wilcorook/RiderProjects/CommandPattern/CommandPattern/CommandPattern.csproj",
     "projectName": "CommandPattern",
-    "projectPath": "C:\\Dev\\CommandPattern\\CommandPattern\\CommandPattern.csproj",
-    "outputPath": "C:\\Dev\\CommandPattern\\CommandPattern\\obj\\",
+    "projectPath": "/home/wilcorook/RiderProjects/CommandPattern/CommandPattern/CommandPattern.csproj",
+    "outputPath": "/home/wilcorook/RiderProjects/CommandPattern/CommandPattern/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {}
