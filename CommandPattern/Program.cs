@@ -57,6 +57,7 @@ namespace CommandPattern
             int input;
             bool cancel = false;
 
+            ShowStatus(light, fan, thermostat);
             while (!cancel)
             {
                 ShowOptions();
