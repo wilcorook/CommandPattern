@@ -15,13 +15,13 @@ namespace Tests
             Light light = new Light();
             Remote remote = new Remote();
             remote.SetButton(1, new TurnLightOn(light));
-            string excpected = "On";
+            string expected = "On";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, light.ToString());
+            Assert.AreEqual(expected, light.ToString());
         }
         
         [Test]
@@ -31,13 +31,13 @@ namespace Tests
             Light light = new Light();
             Remote remote = new Remote();
             remote.SetButton(1, new TurnLightOff(light));
-            string excpected = "Off";
+            string expected = "Off";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, light.ToString());
+            Assert.AreEqual(expected, light.ToString());
         }
 
         [Test]
@@ -47,13 +47,13 @@ namespace Tests
             Fan fan = new Fan();
             Remote remote = new Remote();
             remote.SetButton(1, new TurnFanOn(fan));
-            string excpected = "On";
+            string expected = "On";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, fan.ToString());
+            Assert.AreEqual(expected, fan.ToString());
         }
         
         [Test]
@@ -63,13 +63,13 @@ namespace Tests
             Fan fan = new Fan();
             Remote remote = new Remote();
             remote.SetButton(1, new TurnFanOff(fan));
-            string excpected = "Off";
+            string expected = "Off";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, fan.ToString());
+            Assert.AreEqual(expected, fan.ToString());
         }
         
         [Test]
@@ -79,13 +79,13 @@ namespace Tests
             Thermostat thermostat = new Thermostat();
             Remote remote = new Remote();
             remote.SetButton(1, new TurnThermostatOn(thermostat));
-            string excpected = "On, temperature is set to 0";
+            string expected = "On, temperature is set to 0";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, thermostat.ToString());
+            Assert.AreEqual(expected, thermostat.ToString());
         }
         
         [Test]
@@ -95,13 +95,13 @@ namespace Tests
             Thermostat thermostat = new Thermostat();
             Remote remote = new Remote();
             remote.SetButton(1, new TurnThermostatOff(thermostat));
-            string excpected = "Off";
+            string expected = "Off";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, thermostat.ToString());
+            Assert.AreEqual(expected, thermostat.ToString());
         }
         
         [Test]
@@ -113,13 +113,13 @@ namespace Tests
             remote.SetButton(1, new TurnThermostatOn(thermostat));
             remote.SetButton(1, new TurnThermostatUp(thermostat));
             remote.SetButton(1, new TurnThermostatUp(thermostat));
-            string excpected = "On, temperature is set to 2";
+            string expected = "On, temperature is set to 2";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, thermostat.ToString());
+            Assert.AreEqual(expected, thermostat.ToString());
         }
         
         [Test]
@@ -132,13 +132,13 @@ namespace Tests
             remote.SetButton(1, new TurnThermostatUp(thermostat));
             remote.SetButton(1, new TurnThermostatUp(thermostat));
             remote.SetButton(1, new TurnThermostatDown(thermostat));
-            string excpected = "On, temperature is set to 1";
+            string expected = "On, temperature is set to 1";
             
             //Act
             remote.PressButton(1);
             
             //Assert
-            Assert.AreEqual(excpected, thermostat.ToString());
+            Assert.AreEqual(expected, thermostat.ToString());
         }
 
         [Test]
