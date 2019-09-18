@@ -57,9 +57,11 @@ namespace CommandPattern
             int input;
             bool cancel = false;
 
-            ShowStatus(light, fan, thermostat);
+            //ShowStatus(light, fan, thermostat);
             while (!cancel)
             {
+                Console.Clear();
+                ShowStatus(light, fan, thermostat);
                 ShowOptions();
                 value = Console.ReadLine();
 
